@@ -1,8 +1,11 @@
 const whatsappNumber = '244953245071';
 document.documentElement.classList.add('js');
 const products = [
-  { id: 1, name: 'Garrafa térmica', price: 6500, category: 'Casa', description: 'Prática para acompanhar o seu dia a dia.', image: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=1000&q=85', featured: true, available: true },
-  { id: 2, name: 'Conjunto de 3', price: 20000, category: 'Cozinha', description: 'Uma seleção simples para a rotina da sua casa.', image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1000&q=85', featured: false, available: true }
+  { id: 1, name: 'Conjunto de recipientes de vidro', price: 20000, category: 'Cozinha', description: 'Recipientes práticos para conservar e organizar as suas refeições.', image: 'assets/WhatsApp Image 2026-09-14 at 06.25.52.jpeg', secondaryImage: 'assets/WhatsApp Image 2026-09-14 at 06.25.52 (1).jpeg', featured: true, available: true },
+  { id: 2, name: 'Conjunto de copos', price: 15000, category: 'Casa', description: 'Copos elegantes para servir todos os dias.', image: 'assets/WhatsApp Image 2026-09-14 at 06.25.52 (1).jpeg', featured: false, available: true },
+  { id: 3, name: 'Mochila infantil', price: 18000, category: 'Crianças', description: 'Mochila colorida para acompanhar os mais pequenos.', image: 'assets/WhatsApp Image 2026-09-14 at 06.26.05.jpeg', secondaryImage: 'assets/WhatsApp Image 2026-09-14 at 06.26.05 (1).jpeg', featured: false, available: true },
+  { id: 4, name: 'Toalhas de cozinha', price: 7500, category: 'Casa', description: 'Toalhas macias e coloridas para a rotina da cozinha.', image: 'assets/WhatsApp Image 2026-09-14 at 06.26.05 (1).jpeg', featured: false, available: true },
+  { id: 5, name: 'Molas para roupa', price: 3500, category: 'Organização', description: 'Molas resistentes para manter tudo organizado.', image: 'assets/WhatsApp Image 2026-09-14 at 06.26.06.jpeg', featured: false, available: true }
 ];
 const faqs = [
   ['Como faço uma encomenda?', 'Escolha um produto e fale connosco pelo WhatsApp. Tratamos do resto consigo.'],
